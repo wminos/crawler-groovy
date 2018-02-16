@@ -22,9 +22,8 @@ class GImageCrawlerApp {
             keyword = args[0]
             System.out.printf("- Keyword: %s\n", keyword)
         } else {
-            keyword = "google"
-            // System.out.printf("usage@dev) ./gradlew run {search-keyword}\n")
-            // return;
+            System.out.printf("usage: ./GImageCrawlerApp run {search-keyword}\n")
+            return;
         }
 
         for (final i in 0..1000) {
